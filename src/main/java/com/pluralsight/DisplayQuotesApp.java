@@ -26,7 +26,7 @@ public class DisplayQuotesApp {
             System.out.println(quotes[userChoice-1]);
         }
         catch (Exception e) {
-            throw new RuntimeException(e);
+            System.out.println("Please enter a valid number ");
         }
     }
 }
