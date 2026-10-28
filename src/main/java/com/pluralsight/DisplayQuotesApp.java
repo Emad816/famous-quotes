@@ -19,7 +19,7 @@ public class DisplayQuotesApp {
         quotes[7] = "You can miss someone and still know they don't belong to your life.";
         quotes[8] = "Never become so attached that losing someone means losing yourself.";
         quotes[9] = "Surprise them.";
-
+        //Prompt the user to select a number between 1 and 10 and display that quote.
         try {
             System.out.println("select a number between 1 and 10 to display the quote: ");
             int userChoice = input.nextInt();
